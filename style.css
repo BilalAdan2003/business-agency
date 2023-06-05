@@ -24,14 +24,18 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.banner{width: 100%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50);
-    text-align: center;
+.banner {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50);
+  text-align: center;
 }
-.banner-heading{margin-top: ;
-height: ;}
-.banner-heading span{}
+.banner-heading {
+  margin: bottom 4rem;
+  height: 20rem;
+}
+.banner-heading span {font-family: "oswald","san-serif";
+}
 /* end of section-1 */
