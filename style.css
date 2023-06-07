@@ -109,6 +109,12 @@ html {
     letter-spacing: 3rem;
   }
 }
+
+@keyframes fadeAnimation{0%{opacity: o;
+visibility: hidden;}
+100%{opacity: 1;
+visibility:visible;}}
+
 .heading-1 {
   animation: animateHeading 12s 3s infinite;
 }
@@ -132,6 +138,7 @@ html {
   margin: 0 auto 4rem auto;
   padding: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
   opacity: 0;
+  visibility:hidden;
 }
 
 .banner-btn {
@@ -146,4 +153,5 @@ html {
   text-shadow: 0.6rem 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
+
 /* End of section 1 */
