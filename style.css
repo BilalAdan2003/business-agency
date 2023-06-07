@@ -35,6 +35,7 @@ html {
 .banner-heading {
   margin-bottom: 4rem;
   height: 20rem;
+  perspective: 50rem;
 }
 
 .banner-heading span {
@@ -48,6 +49,9 @@ html {
   width: 100%;
   justify-content: center;
   display: flex;
+  transform: translatez(8rem);
+  opacity:0;
+  word-spacing: 3rem;
 }
 .banner-paragraph {
   font-size: 4rem;
