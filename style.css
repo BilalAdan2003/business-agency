@@ -45,14 +45,83 @@ html {
   text-transform: uppercase;
   color: white;
   text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
-  position: absolute; 
+  position: absolute;
   width: 100%;
   justify-content: center;
   display: flex;
   transform: translatez(8rem);
-  opacity:0;
+  opacity: 0;
   word-spacing: 3rem;
 }
+
+@keyframes animateHeading {
+  0% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  3% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+  }
+  25% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+  }
+
+  28% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  100% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+}
+@keyframes animateHeading {
+  0% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  3% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+  }
+  25% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+  }
+  28% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  100% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+}
+.heading-1 {
+  animation: animateHeading 12s 3s infinite;
+}
+.heading-2 {
+  animation: animateHeading 12s 6s infinite;
+}
+.heading-3 {
+  animation: animateHeading 12s 9s infinite;
+}
+.heading-4 {
+  animation: animateHeading 12s 12s infinite;
+}
+
 .banner-paragraph {
   font-size: 4rem;
   font-weight: 400;
@@ -62,6 +131,7 @@ html {
   width: 50%;
   margin: 0 auto 4rem auto;
   padding: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
+  opacity: 0;
 }
 
 .banner-btn {
